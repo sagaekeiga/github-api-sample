@@ -1,0 +1,2 @@
+class PullsController < ApplicationController
+end
