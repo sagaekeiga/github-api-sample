@@ -1,0 +1,30 @@
+{
+  "name": "rails-assets-bootstrap",
+  "downloads": null,
+  "version": "4.1.1",
+  "version_downloads": null,
+  "platform": "ruby",
+  "authors": "rails-assets.org",
+  "info": "",
+  
+  "metadata": {
+
+  },
+  "sha": null,
+  "project_uri": "https://github.com/twbs/bootstrap",
+  "gem_uri": null,
+  "homepage_uri": "https://github.com/twbs/bootstrap",
+  "wiki_uri": null,
+  "documentation_uri": null,
+  "mailing_list_uri": null,
+  "source_code_uri": "https://github.com/twbs/bootstrap",
+  "bug_tracker_uri": null,
+  "dependencies": {
+    "development": [
+    
+    ],
+    "runtime": [
+
+    ]
+  }
+}

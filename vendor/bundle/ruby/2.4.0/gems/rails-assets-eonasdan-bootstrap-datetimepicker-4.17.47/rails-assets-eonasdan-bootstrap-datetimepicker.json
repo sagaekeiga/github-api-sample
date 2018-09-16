@@ -1,0 +1,46 @@
+{
+  "name": "rails-assets-eonasdan-bootstrap-datetimepicker",
+  "downloads": null,
+  "version": "4.17.47",
+  "version_downloads": null,
+  "platform": "ruby",
+  "authors": "rails-assets.org",
+  "info": "bootstrap3 datetimepicker",
+  
+  "licenses": "MIT",
+  
+  "metadata": {
+
+  },
+  "sha": null,
+  "project_uri": "https://github.com/Eonasdan/bootstrap-datetimepicker",
+  "gem_uri": null,
+  "homepage_uri": "https://github.com/Eonasdan/bootstrap-datetimepicker",
+  "wiki_uri": null,
+  "documentation_uri": null,
+  "mailing_list_uri": null,
+  "source_code_uri": "https://github.com/Eonasdan/bootstrap-datetimepicker",
+  "bug_tracker_uri": null,
+  "dependencies": {
+    "development": [
+    
+    
+    {
+      "name": "rails-assets-jquery",
+      "requirements": ">= 1.8.3"
+    },
+    
+    
+    
+    {
+      "name": "rails-assets-moment",
+      "requirements": ">= 2.10.5"
+    },
+    
+    
+    ],
+    "runtime": [
+
+    ]
+  }
+}
