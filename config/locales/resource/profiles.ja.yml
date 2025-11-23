@@ -1,0 +1,12 @@
+```yaml
+ja:
+  profiles:
+    show:
+      title: "プロフィール"
+      bio_placeholder: "自己紹介を入力してください"
+      location_placeholder: "居住地を入力してください"
+      update_success: "プロフィールが更新されました"
+      update_failure: "プロフィールの更新に失敗しました"
+```
+
+```
