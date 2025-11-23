@@ -1,0 +1,13 @@
+```yaml
+ja:
+  activerecord:
+    models:
+      report: 報告
+    attributes:
+      users/report:
+        start_date: 着手日
+        end_date: 完了日
+        development_time: 開発に要した時間
+```
+
+```
