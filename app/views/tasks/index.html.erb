@@ -1,0 +1,29 @@
+```erb
+<h1>Tasks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Parent Task</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tasks.each do |task| %>
+      <tr>
+        <td><%= task.name %></td>
+        <td><%= task.parent_task&.name || 'None' %></td>
+        <td><%= link_to 'Show', task %></td>
+        <td><%= link_to 'Edit', edit_task_path(task) %></td>
+        <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'New Task', new_task_path %>
+```
+
+このコードは、親タスクと小タスクの関連付けを行うための基本的な実装を提供します。マイグレーションファイルは`tasks`テーブルに`parent_task_id`カラムを追加し、`Task`モデルは自己参照の関係を持つように設定されています。コントローラーとビューも、タスクの作成や表示に対応しています。
