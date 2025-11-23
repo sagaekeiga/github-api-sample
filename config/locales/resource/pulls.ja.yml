@@ -1,0 +1,11 @@
+```yaml
+ja:
+  resource:
+    pulls:
+      title: "プルリクエスト"
+      description: "プルリクエストの詳細"
+      create_success: "プルリクエストが作成されました"
+      create_failure: "プルリクエストの作成に失敗しました"
+```
+
+```
