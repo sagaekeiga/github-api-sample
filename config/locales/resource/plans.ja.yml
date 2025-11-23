@@ -1,0 +1,7 @@
+```yaml
+ja:
+  plans:
+    add_photo_button: "写真を追加"
+```
+
+この実装では、`Admins::PlansController`に`edit`アクションを追加し、写真追加ボタンを表示するためのHTMLを`edit.html.erb`に追加しました。また、JavaScriptでボタンの動作を実装し、写真をアップロードする機能を提供しています。ローカライズファイルも更新し、日本語のボタンラベルを追加しました。
