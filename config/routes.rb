@@ -1,7 +1,9 @@
-Rails.application.routes.draw do
-  devise_for :users
-  get 'welcome/index'
+```ruby
+# frozen_string_literal: true
 
-  root to: 'welcome#index'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+Rails.application.routes.draw do
+  resources :recordings, only: [:create, :index]
 end
+```
+
+このコード雛形は、録画データを保存するためのテーブルを作成し、関連するモデル、バリデーション、テストを含んでいます。また、シードデータに録画データの例を追加しました。必要に応じて、ユーザーIDやビデオURLを適切に変更してください。
