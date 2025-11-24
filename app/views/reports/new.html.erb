@@ -1,0 +1,21 @@
+```erb
+<%= form_with model: @report, local: true do |form| %>
+  <div>
+    <%= form.label :start_date %>
+    <%= form.date_select :start_date %>
+  </div>
+  <div>
+    <%= form.label :end_date %>
+    <%= form.date_select :end_date %>
+  </div>
+  <div>
+    <%= form.label :development_time %>
+    <%= form.number_field :development_time %>
+  </div>
+  <div>
+    <%= form.submit 'Create Report' %>
+  </div>
+<% end %>
+```
+
+```
