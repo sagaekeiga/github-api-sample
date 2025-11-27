@@ -1,0 +1,19 @@
+```erb
+<%= form_with(model: @task, local: true) do |form| %>
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :parent_id, '親タスク' %>
+    <%= form.collection_select :parent_id, Task.all, :id, :name, include_blank: true %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+```
+
+```
