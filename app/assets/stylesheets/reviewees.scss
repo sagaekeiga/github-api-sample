@@ -1,0 +1,59 @@
+.reviewee-dashboard-wrapper {
+  .card {
+    border-radius: $base-border-radius;
+    margin-top: $base-margin * 2;
+    background-color: $color-github-light-grey;
+    border: solid 1px $color-literal-gray;
+    box-shadow: none;
+    .card-header {
+      padding-bottom: $base-padding * 3;
+      border-bottom: solid 1px gray;
+      color: $color-github-blue;
+      font-weight: bold;
+    }
+    .card-body {
+    }
+  }
+  .greet {
+    margin-top: $base-margin * 10;
+    table {
+      margin-top: $base-margin * 4;
+      .ok {
+        color: $color-line;
+      }
+    }
+  }
+}
+
+.reviewee-pulls-index-wrapper {
+  .label {
+    padding: 6px 12px;
+    font-size: 12px;
+    border: 1px solid $color-github-label-border-white;
+    border-radius: $base-border-radius;
+    font-weight: 400;
+    &.label-warning  {
+      color: $color-white;
+      background-color: #f86c6b !important;
+    }
+    &.label-primary  {
+      background-color: $color-line !important;
+    }
+  }
+}
+
+.reviewee-registration-new-wrapper, .reviewee-session-new-wrapper {
+  margin-top: $base-margin * 2;
+  .col-xs-8.col-xs-offset-2 {
+    .card {
+      border: 1px solid $color-github-label-border-white;
+      box-shadow: none;
+      h4 {
+        margin-top: $base-margin / 2;
+        font-weight: bold;
+      }
+      .card-body {
+      }
+    }
+  }
+}
